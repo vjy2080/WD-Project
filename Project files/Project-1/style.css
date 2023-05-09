@@ -1,11 +1,22 @@
-body{
-    font-family:monospace;
-    background-image: url();
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-header{
-    border: 2px solid blue;
-    background-color: black;
+body {
+    font-family: monospace;
+    color: white;
+    background-image: url(Images/bg.jpg);
+}
+
+
+/* ============================HEADER======================================== */
+
+header {
+    /* border: 2px solid blue; */
+    background-color: rgba(0, 0, 0, 0.535);
+    border-radius: 10px;
     display: flex;
     width: 100%;
     display: flex;
@@ -15,7 +26,7 @@ header{
 
 .logo {
 
-    border: 2px solid;
+    /* border: 2px solid; */
     margin: 0px 30px;
 
 }
@@ -27,10 +38,10 @@ header{
 }
 
 .nav {
-    border: 2px solid;
+    border: 2px solid blue;
     display: flex;
     flex-wrap: wrap;
-    width: 400px;
+    width: 600px;
     height: 50px;
     margin: 5px 30px;
     justify-content: space-between;
@@ -39,11 +50,98 @@ header{
 
 .nav a {
     /* border: 2px solid; */
+    color: orange;
     text-decoration: none;
     text-transform: uppercase;
+    align-self: center;
+
 }
 
-.nav a:hover, .nav a:active{
-    color: orange;
+.nav a:hover {
+    color: orangered;
     text-decoration: underline;
+}
+
+
+.search input {
+    background-color: black;
+    color: orange;
+    border: 2px groove orange;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+/* ========================================Main========================================== */
+main {
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-content {
+    border: 2px solid;
+    width: 49%;
+    height: 80vh;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.left-content h2 {
+    font-size: xx-large;
+}
+.left-content h3 {
+    font-size: x-large;
+}
+
+.left-content span {
+
+    color: orange;
+    font-weight: bolder;
+}
+
+.left-content button{
+    padding: 10px;
+    text-decoration: underline;
+    font-weight: bolder;
+    color: navy;
+    background-color: orange;
+    border-radius: 15px;
+}
+.right-content {
+    border: 2px solid;
+    background-color: #fff;
+    width: 49%;
+    height: 300px;
+    text-transform: capitalize;
+    /* padding: 50px 170px ; */
+    display: flex;
+}
+.login{
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.right-content h3{
+    color: black;
+    text-align: center;
+}
+.right-content input{
+    margin:10px 30px;
+
+}
+.btn-sign_up{
+
+}
+
+.btn-sign_in{
+
+
 }
