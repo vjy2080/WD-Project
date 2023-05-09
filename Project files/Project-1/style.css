@@ -306,3 +306,48 @@ span {
     height: 300px;
 
 }
+
+.box3 {
+    border: 2px solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 75vh;
+    align-content: center;
+}
+
+.box3-left-content img {
+    box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+        0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    width: 340px;
+    height: 240px;
+    margin-top: 50px;
+}
+
+.box3-hr {
+    width: 60px;
+    border-bottom: 2px solid orangered;
+}
+
+.box3-right-content {
+    border: 2px solid;
+    width: 40%;
+    height: 350px;
+    
+}
+.box3-icon{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid;
+}
+.box3-icon img{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.box3-content{
+    margin: 80px 0px;    
+    border: 2px solid;
+    display: flex;
+}
