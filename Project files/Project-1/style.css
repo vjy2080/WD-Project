@@ -208,15 +208,16 @@ span {
     color: orange;
 }
 
-.box{
+.box {
     display: flex;
     justify-content: space-between;
     /* border: 2px solid red; */
-    width: 100vw;
+    width: 98vw;
     margin-top: 10px;
 
 }
-.social{
+
+.social {
     width: 60%;
     /* border: 2px solid; */
     margin: 5px;
@@ -226,8 +227,8 @@ span {
     width: 80%;
     /* border: 2px solid; */
     display: flex;
-justify-content: end;
-margin-right: 60px;
+    justify-content: end;
+    margin-right: 60px;
 }
 
 .social-media img {
@@ -236,7 +237,72 @@ margin-right: 60px;
     margin: 0px 10px;
 }
 
-.box2{
-    width: 900px;
-    
+.box2 {
+    /* border: 2px solid; */
+    background-color: rgb(235, 246, 251);
+    width: 98vw;
+    height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tab-btn {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /* border: 2px solid; */
+    /* height: 400px; */
+    width: 25%;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.tab-btn button {
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(43, 18, 9);
+}
+
+.tab-btn button:hover {
+    color: white;
+    background-color: orangered;
+
+}
+
+
+.tab-text {
+    /* border: 2px solid; */
+    width: 50%;
+    padding: 65px 50px;
+}
+
+.tab-text p {
+    margin-top: 30px;
+}
+
+.download-btn button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    margin: 50px 0px;
+    border-radius: 5px 15px;
+
+}
+
+.download-btn button:hover {
+    background-color: orangered;
+}
+
+
+.tab-img {
+    margin: auto;
+}
+
+.tab-img img {
+    width: 250px;
+    height: 300px;
+
 }
